@@ -1,11 +1,14 @@
 import React from "react"
 
 export default function Layout({ children }) {
-    console.log(children)
     return(
         <div>
+            {/* app bar */}
+
+            {/* side drawer */}
+
             <div>
-                { children }
+                {children}
             </div>
         </div>
     )
