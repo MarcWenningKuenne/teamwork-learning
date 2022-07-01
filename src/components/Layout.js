@@ -1,9 +1,12 @@
 import React from "react"
 
-export default function Layout() {
+export default function Layout({ children }) {
+    console.log(children)
     return(
         <div>
-            Layout
+            <div>
+                { children }
+            </div>
         </div>
     )
 }
